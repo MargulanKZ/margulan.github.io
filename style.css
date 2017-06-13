@@ -1,0 +1,228 @@
+@font-face {
+  font-family: "San Francisco";
+  font-weight: 100;
+  src: url("https://applesocial.s3.amazonaws.com/assets/styles/fonts/sanfrancisco/sanfranciscodisplay-ultralight-webfont.woff");
+}
+
+.row{
+	position: absolute;
+}
+
+.container{
+	max-width: 1000px;
+	margin: 0 auto;
+
+}
+
+body{
+	background: rgba(100,100,100,0.02);
+	margin: 0px;
+	font-family: 'San Francisco', sans-serif;
+}
+
+.col{
+	
+	float: left;
+	padding: 0px;
+	position: relative;
+	margin: 17px;
+}
+
+.col img{
+	max-width: 100%;
+	margin:0px;
+
+}
+
+@media screen and (max-width: 500px) {
+	.row{
+		display: block;
+	}
+
+	.col{
+		padding: 0px;
+	}
+}
+
+
+
+.overlay{
+	width: 300px;
+	height: 300px;
+	position: absolute;
+	top: 0;
+	color: white;
+	font-size: 18px;
+	font-weight: bold;
+	text-align: center;
+	background: rgba(0,0,0,0.5); 
+	opacity: 0;
+}
+
+.col:hover .overlay{
+	opacity: 1;
+	transition: 0.5s;
+	cursor: pointer;
+}
+
+.head-content{
+	max-width: 1000px;
+	margin: 0 auto;
+
+}
+
+.header{
+	height: 72px;
+	background: white;
+	margin: 0;
+	border-bottom:  1px solid rgba(100,100,100,0.2);
+
+}
+.icon{
+	height: 42px;
+	margin: 15px 20px;
+}
+
+.insta{
+	height: 42px;
+	margin: 15px 0px;	
+}
+
+.line{
+	height: 30px;
+	position: absolute;
+	margin: 20px -10px;
+	padding: 0px;
+	border-left:  1px solid rgba(0,0,0,0.6);
+}
+
+.links{
+	position: absolute;
+	float: right;
+	display: inline-block;
+	margin: 10px;
+	margin-left: 630px;
+	width: 200px;
+
+}
+
+.btn{
+	height: 25px;
+	margin: 12px;
+	margin-top: 15px;
+	width: 28px;
+	float: left;
+}
+
+
+.info{
+	height: 240px;
+}
+
+.img_p{
+	margin:60px;
+	float: left;
+	margin-left: 100px;
+	border-radius: 250px;
+	border: 0.5px solid rgba(100,100,100,0.2);
+
+}
+
+.text_head{
+
+	float: right;
+	width: 650px;
+	height: 150px;
+	margin-top:75px;
+	padding: 0px;
+
+}
+
+.met{
+	font-size: 32px;
+    line-height: 40px;
+    font-weight: bold;
+    margin:0px;
+    display: inline-block;
+    
+   
+}
+
+.username_plus_follow{
+	height: 40px;
+	
+}
+
+.follow{
+	display: inline-block;
+	position: relative;
+
+	margin-left: 20px;
+	width: 141.55px;
+	color: white;
+	padding: 2px;
+	max-height: 28px;
+	border-radius: 5px;
+	background: #3897f0;
+	font-size: 14px;
+    font-weight: 600;
+    line-height: 26px;
+	text-align: center;
+}
+
+.str{
+	position: absolute;
+	display: inline-block;
+	margin-left: 15px;
+	margin-top: 12px;
+	border-radius: 5px;
+	height: 29px;
+	width: 34px;
+	
+	text-align: center;
+	background: #3897f0;
+}
+
+.three{
+	position: absolute;
+	display: inline-block;
+	margin-left: 65px;
+	margin-top: 0px;
+	padding: 0px;
+	font-size: 30px;
+}
+
+.pub{
+	font-family: 'Lato', sans-serif;
+}
+
+.bold{
+	font-weight: bold;
+}
+
+.images{
+	width: 300px;
+	height: 300px;
+}
+
+.like_comment{
+
+	width: 18px;
+}
+
+.asd{
+	margin-top: 120px;
+	
+	display: inline-block;
+}
+
+
+
+.like_text{
+	font-family: 'Lato', sans-serif;
+	font-weight: bold;
+	font-size: 18px;
+	margin-left: 10px;
+	margin-right: 10px;
+	display: inline-block;
+}
